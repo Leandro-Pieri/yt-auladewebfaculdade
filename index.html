@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo-container">
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <img src="https://www.youtube.com/img/desktop/yt_1200.png" alt="YouTube Logo" class="youtube-logo">
+        </div>
+        
+        <div class="search-container">
+            <input type="text" placeholder="Pesquisar">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        
+        <div class="icons-container">
+            <div class="icon"><i class="fas fa-video"></i></div>
+            <div class="icon"><i class="fas fa-th"></i></div>
+            <div class="icon"><i class="fas fa-bell"></i></div>
+            <div class="user-icon">U</div>
+        </div>
+    </header>
+    
+   
+    <div class="sidebar">
+        <div class="sidebar-item active">
+            <i class="fas fa-home"></i>
+            <span>Início</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fas fa-compass"></i>
+            <span>Explorar</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fas fa-bookmark"></i>
+            <span>Inscrições</span>
+        </div>
+        <hr>
+        <div class="sidebar-item">
+            <i class="fas fa-play-circle"></i>
+            <span>Biblioteca</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fas fa-history"></i>
+            <span>Histórico</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fas fa-clock"></i>
+            <span>Assistir mais tarde</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fas fa-thumbs-up"></i>
+            <span>Vídeos marcados</span>
+        </div>
+        <hr>
+        <h4 style="padding: 10px 25px; font-size: 14px;">INSCRIÇÕES</h4>
+        <div class="sidebar-item">
+            <div class="channel-icon"></div>
+            <span>Canal 1</span>
+        </div>
+        <div class="sidebar-item">
+            <div class="channel-icon"></div>
+            <span>Canal 2</span>
+        </div>
+        <div class="sidebar-item">
+            <div class="channel-icon"></div>
+            <span>Canal 3</span>
+        </div>
+    </div>
+    
+    
+    <div class="main-content">
+        <div class="categories">
+            <div class="category active">Tudo</div>
+            <div class="category">Música</div>
+            <div class="category">Jogos</div>
+            <div class="category">Programação</div>
+            <div class="category">Filmes</div>
+            <div class="category">Notícias</div>
+            <div class="category">Ao vivo</div>
+            <div class="category">Aprendizado</div>
+            <div class="category">Podcasts</div>
+        </div>
+        
+        <div class="videos-container">
+            
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Thumbnail">
+                    <span class="duration">10:30</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon"></div>
+                    <div>
+                        <div class="video-title">Título do vídeo 1 - um vídeo muito interessante que você vai gostar</div>
+                        <div class="channel-name">Nome do Canal</div>
+                        <div class="video-stats">1,2 mi de visualizações • há 1 semana</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://i.ytimg.com/vi/9bZkp7q19f0/hqdefault.jpg" alt="Thumbnail">
+                    <span class="duration">5:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon"></div>
+                    <div>
+                        <div class="video-title">Título do vídeo 2 - outro vídeo incrível para assistir</div>
+                        <div class="channel-name">Outro Canal</div>
+                        <div class="video-stats">3,4 mi de visualizações • há 1 mês</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://i.ytimg.com/vi/J---aiyznGQ/hqdefault.jpg" alt="Thumbnail">
+                    <span class="duration">15:22</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon"></div>
+                    <div>
+                        <div class="video-title">Tutorial completo de CSS Grid - aprenda tudo em um vídeo</div>
+                        <div class="channel-name">Canal de Programação</div>
+                        <div class="video-stats">245 mil visualizações • há 3 dias</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://i.ytimg.com/vi/7NOSDKb0HlU/hqdefault.jpg" alt="Thumbnail">
+                    <span class="duration">8:12</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon"></div>
+                    <div>
+                        <div class="video-title">As melhores músicas de 2023 - playlist completa</div>
+                        <div class="channel-name">Canal de Música</div>
+                        <div class="video-stats">5,7 mi de visualizações • há 2 semanas</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://i.ytimg.com/vi/LDU_Txk06tM/hqdefault.jpg" alt="Thumbnail">
+                    <span class="duration">22:05</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon"></div>
+                    <div>
+                        <div class="video-title">Review do novo jogo - análise completa com gameplay</div>
+                        <div class="channel-name">Canal de Games</div>
+                        <div class="video-stats">1,8 mi de visualizações • há 5 dias</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://i.ytimg.com/vi/RF5_MPSNAtU/hqdefault.jpg" alt="Thumbnail">
+                    <span class="duration">12:40</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon"></div>
+                    <div>
+                        <div class="video-title">Como fazer um clone do YouTube com HTML e CSS</div>
+                        <div class="channel-name">Canal de Desenvolvimento</div>
+                        <div class="video-stats">87 mil visualizações • há 1 mês</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
